@@ -87,6 +87,10 @@ This guide provides a step-by-step process for setting up Google API authenticat
 
 Keep your `credentials.json` and `token.pickle` secure, especially if you are using shared machines or deploying your application publicly. Consider using environment variables or other methods to protect sensitive information.
 
+## Author
+
+Created by [Yaniv Haliwa](https://github.com/YanivHaliwa) for security testing and educational purposes.
+
 
 
  
