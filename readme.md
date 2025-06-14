@@ -3,6 +3,24 @@
 
 ## Automated Emailing with OpenAI Integration and Command-Line Email Management
 
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/YanivHaliwa/Email-Terminal.git
+   cd Email-Terminal
+   ```
+2. Install required Python packages:
+   ```
+   pip install -r requirements.txt
+   ```
+3. (Optional) Set up OpenAI API key for automated content generation:
+   ```
+   export OPENAI_API_KEY='your_openai_api_key_here'
+   ```
+   Note: OpenAI API key is only required for `autogmail.py` automated content generation features.
+
+## Tools Overview
 
 ### `emi.py` - Email Interaction Tool
 
@@ -12,8 +30,7 @@ This script allows users to read from and send emails via the command line, offe
 - **Read Emails**: Can fetch and display emails with options to specify how many emails to read.
 - **Send Emails**: Provides a command-line interface to send emails, allowing users to input the recipient, subject, and body.
 - **Argument Parsing**: Uses argparse to handle input options, making it easy to integrate into other scripts or workflows.
-
-for more scripts using GPT for translation and subtitle check here: [Subtitle Management Tools section in the main README](https://github.com/YanivHaliwa/Linux-Stuff/tree/master?tab=readme-ov-file#subtitle-management-tools).
+ 
 
 #### Usage:
 - **Read Emails**: Use the `-r` flag to read emails. You can specify the number of emails to read as an argument.
